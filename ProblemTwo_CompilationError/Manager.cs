@@ -13,12 +13,12 @@ namespace ProblemTwo_CompilationError
 
         public Manager(int eID,string eName,int eLevel,DateTime eDoJ, List<Employee> drEmployeesLst,string cCode)
         {
-            this.EmpID=eID;
-            this.EmpName=eName;
-            this.EmpLevel=eLevel;
-            this.DateOfJoining=eDoJ;
-            DirectReports=drEmployeeLst;
-            CostCode=CCode;
+            this.EmpID = eID;
+            this.EmpName = eName;
+            this.EmpLevel = eLevel;
+            this.DateOfJoining = eDoJ;
+            DirectReports = drEmployeeLst;
+            CostCode = CCode;
         }
         
 

@@ -13,12 +13,12 @@ namespace ProblemTwo_CompilationError
 
         public DirectReport(Employee managerEmpObj,string pCode) 
         {
-           this.EmpID=eID;
-            this.EmpName=eName;
-            this.EmpLevel=eLevel;
-            this.DateOfJoining=eDoJ;
-            ReportsTo=managerEmpObj;
-            ProjectCode=pCode;
+           this.EmpID = eID;
+            this.EmpName = eName;
+            this.EmpLevel = eLevel;
+            this.DateOfJoining = eDoJ;
+            ReportsTo = managerEmpObj;
+            ProjectCode = pCode;
         }
  
     }

@@ -11,10 +11,14 @@ namespace ProblemTwo_CompilationError
         public Employee ReportsTo { get; set; }
         public string ProjectCode { get; set; }
 
-        public DirectReport(Employee managerEmpObj,string pCode) :base(eID,eName,eLevel,eDoJ)
+        public DirectReport(Employee managerEmpObj,string pCode) 
         {
-            ReportsTo = managerEmpObj;
-            ProjectCode = pCode;
+           this.EmpID=eID;
+            this.EmpName=eName;
+            this.EmpLevel=eLevel;
+            this.DateOfJoining=eDoJ;
+            ReportsTo=managerEmpObj;
+            ProjectCode=pCode;
         }
  
     }

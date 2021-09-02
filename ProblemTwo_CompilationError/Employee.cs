@@ -21,10 +21,10 @@ namespace ProblemTwo_CompilationError
         }
         public Employee(int eID,string eName,int eLevel, DateTime eDoJ)
         {
-            this.EmpID=eID;
-            this.EmpName=eName;
-            this.EmpLevel=eLevel;
-            this.DateOfJoining=eDoJ;
+            this.EmpID = eID;
+            this.EmpName = eName;
+            this.EmpLevel = eLevel;
+            this.DateOfJoining = eDoJ;
         }
 
         public static int GetMonthDifference(DateTime startDate, DateTime endDate)
